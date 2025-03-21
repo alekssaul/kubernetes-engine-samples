@@ -22,11 +22,11 @@ steps:
   args:
     - 'build'
     - '-t'
-    - 'us-west1-docker.pkg.dev/qwiklabs-gcp-01-e3d45af1f30f/cepf-app-mod-repowhereami:v1'
+    - 'us-west1-docker.pkg.dev/qwiklabs-gcp-01-e3d45af1f30f/cepf-app-mod-repo/whereami:v1'
     - '-t'
-    - 'us-west1-docker.pkg.dev/qwiklabs-gcp-01-e3d45af1f30f/cepf-app-mod-repowhereami:v1.2.23'
+    - 'us-west1-docker.pkg.dev/qwiklabs-gcp-01-e3d45af1f30f/cepf-app-mod-repo/whereami:v1.2.23'
     - '-t'
-    - 'us-west1-docker.pkg.dev/qwiklabs-gcp-01-e3d45af1f30f/cepf-app-mod-repowhereami:sample-public-image-v1.2.23-${SHORT_SHA}'
+    - 'us-west1-docker.pkg.dev/qwiklabs-gcp-01-e3d45af1f30f/cepf-app-mod-repo/whereami:sample-public-image-v1.2.23-${SHORT_SHA}'
     - '.'
   dir: 'quickstarts/whereami'
 images:
